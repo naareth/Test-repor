@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 z-1">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-4" href="#"><i class="bi bi-gem text-warning fs-2 fw-bold"></i> AURA
+                <span class=" brand">FASHION</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav mx-auto mb-2 gap-4 mb-lg-0 gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="index.html">ទំព័រដើម</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-medium " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ប្រភេទទំនិញ <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="#">អាវបុរស</a></li>
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="#">ខោបុរស</a></li>
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="">អាវនារី</a></li>
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="#">ខោនារី</a></li>
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="#">ស្បែកជើង</a></li>
+                            <li class=" px-2"><a class="dropdown-item px-2 py-2 rounded" href="#">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium active" href="menu.html">កន្ត្រកទំនិញ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium " href="profile.html">គណនីខ្ញុំ</a>
+                    </li>
+                </ul>
+                <div class=" d-flex gap-3 py-lg-0 py-3">
+                    <button type="button" class="btn  position-relative">
+                        <a class=" text-decoration-none text-dark" href="menu.html"><i class="bi bi-bag fs-4"></i></a>
+                        <span class="position-absolute top-0 start-75 translate-middle badge rounded-pill bg-danger">
+                            3
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                    <button type="button" class="btn btn-dark d-none d-lg-block"><a
+                            class=" text-light text-decoration-none" href="profile.html"><i
+                                class="bi bi-person-circle"></i> គណនីខ្ញុំ</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class=" bg-body-tertiary">
+        <div class=" blur">
+            <div class="container py-5 text-center hero-content ">
+                <h2 class="title text-light display-6 m-auto fw-bolder ">កន្ត្រកទំនិញរបស់អ្នក</h2>
+                <p class=" text text-white-50 fs-6 pt-1 m-auto">ពិនិត្យមើលទំនិញដែលបានជ្រើសរើស និងបន្តការបញ្ជាទិញ</p>
+            </div>
+        </div>
+    </header>
+
+    <section class=" py-5 bg-body-secondary">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8 col-12">
+                    <div class="card-product table-responsive border-0 px-4 py-4 bg-white rounded-4">
+                        <table class="table align-middle mb-0 text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th>ទំនិញ (Product)</th>
+                                    <th>តម្លៃឯកតា (Price)</th>
+                                    <th>ចំនួន (Qty)</th>
+                                    <th>តម្លៃសរុប (Total)</th>
+                                    <th>សកម្មភាព</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class=" d-flex align-items-center gap-3 py-2">
+                                            <img class="item-img" src="assets/img/photo-1581655353564-df123a1eb820.avif"
+                                                alt="">
+                                            <div>
+                                                <h6 class=" small fw-bold">អាវសឺមីដៃវែងបុរស ក្រណាត់លីនិន</h6>
+                                                <p class=" small">ទំហំ: <span class=" fw-bold">M</span> ពណ៌: <span
+                                                            class=" fw-bold">White</span></p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>$18.50</td>
+                                    <td>
+                                        <div class=" d-flex border rounded w-50 justify-content-between">
+                                            <button type="button" class=" border-0 px-2 fw-bold">-</button>
+                                            <input type="text" class=" w-25 border-0 text-center" value="1" readonly>
+                                            <button type="button" class=" border-0 px-2 fw-bold">+</button>
+                                        </div>
+                                    </td>
+                                    <td class=" fw-medium fs-6">$18.50</td>
+                                    <td class=" text-center"><i class="bi bi-trash"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class=" d-flex align-items-center gap-3 py-2">
+                                            <img class="item-img" src="assets/img/photo-1542272604-787c3835535d.avif"
+                                                alt="">
+                                            <div>
+                                                <h6 class=" fw-bold">ខោខូវប៊យជើងស្មTarget បុរស</h6>
+                                                <p class=" small">ទំហំ: <span class=" fw-bold">29</span> ពណ៌: <span
+                                                            class="fw-bold">Dark Blue</span></p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>$24.00</td>
+                                    <td>
+                                        <div class=" d-flex border rounded w-50 justify-content-between ">
+                                            <button type="button" class=" border-0 px-2 fw-bold">-</button>
+                                            <input type="text" class=" w-25 border-0 text-center" value="1" readonly>
+                                            <button type="button" class=" border-0 px-2 fw-bold">+</button>
+                                        </div>
+                                    </td>
+                                    <td class=" fw-medium fs-6">$24.00</td>
+                                    <td class=" text-center"><i class="bi bi-trash"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class=" d-flex align-items-center gap-3 py-2">
+                                            <img class="item-img" src="assets/img/photo-1496747611176-843222e1e57c.avif"
+                                                alt="">
+                                            <div>
+                                                <h6 class=" small fw-bold">រ៉ូបផ្កាព្រីននារី សាច់ក្រណាត់សូត្រទន់</h6>
+                                                <p class=" small">ទំហំ: <span class=" fw-bold">S</span> ពណ៌: <span
+                                                            class=" fw-bold">Floral Pink</span></p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>$22.90</td>
+                                    <td>
+                                        <div class=" d-flex border rounded w-50 justify-content-between ">
+                                            <button type="button" class=" border-0 px-2 fw-bold">-</button>
+                                            <input type="text" class=" w-25 border-0 text-center" value="1" readonly>
+                                            <button type="button" class=" border-0 px-2 fw-bold">+</button>
+                                        </div>
+                                    </td>
+                                    <td class=" fw-medium fs-6">$22.90</td>
+                                    <td class=" text-center"><i class="bi bi-trash"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class=" card-price p-4">
+                        <h4 class=" border-bottom pb-3 fw-bolder">សេចក្តីសង្ខេបការទិញ</h4>
+                        <div class=" border-bottom py-1">
+                            <div class=" d-flex justify-content-between">
+                                <p>តម្លៃទំនិញសរុប</p>
+                                <span class=" fw-medium">$65.40</span>
+                            </div>
+                            <div class=" d-flex justify-content-between">
+                                <p>សេវាដឹកជញ្ជូន</p>
+                                <span class=" fw-medium">Free</span>
+                            </div>
+                            <p>* ឥតគិតថ្លៃសម្រាប់ការទិញចាប់ពី $50 ឡើងទៅ</p>
+                        </div>
+                        <div class=" d-flex justify-content-between py-3">
+                            <h5 class=" fw-bolder">តម្លៃសរុបចុងក្រោយ</h5>
+                            <span class=" price fw-bold fs-5">$65.40</span>
+                        </div>
+                        <button type="button"
+                            class=" btn-payment w-100 btn text-light fw-bold text-center py-3 rounded-3"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-credit-card"></i>
+                            បន្តទៅការទូទាត់ប្រាក់</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" bg-dark py-4">
+        <div class="container">
+            <div class="row g-4 border-bottom pb-5 pt-3">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card1">
+                        <a class="navbar-brand fw-bolder fs-4 text-light" href="#"><i
+                                class="bi bi-gem text-warning fs-2 fw-bold"></i> AURA
+                            <span class=" brand">FASHION</span></a>
+                        <p class=" text-white-50 small py-3">
+                            AURA Fashion គឺជាហាងលក់សម្លៀកបំពាក់ឈានមុខគេ ដែលផ្តល់ជូននូវម៉ូដសម្លៀកបំពាក់ថ្មីៗ ទាន់សម័យ
+                            គុណភាពល្អឥតខ្ចោះ និងតម្លៃសមរម្យបំផុតសម្រាប់បុរសនិងនារី។
+                        </p>
+                        <div class="contact">
+                            <a class=" text-light d-inline rounded-circle p-2 bg-secondary" href=""><i
+                                    class="bi bi-facebook"></i></a>
+                            <a class=" text-light d-inline rounded-circle p-2 bg-secondary mx-3" href=""><i
+                                    class="bi bi-instagram"></i></a>
+                            <a class=" text-light d-inline rounded-circle p-2 bg-secondary" href=""><i
+                                    class="bi bi-telegram"></i></a>
+                            <a class=" text-light d-inline rounded-circle p-2 bg-secondary mx-3" href=""><i
+                                    class="bi bi-youtube"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <div class="card2">
+                        <h4 class=" text-light px-md-3">ទំព័ររហ័ស</h4>
+                        <ul class=" text-white-50 list-unstyled px-md-3">
+                            <li class=" py-2 small">ទំព័រដើម</li>
+                            <li class=" py-2 small">ប្រភេទទំនិញ</li>
+                            <li class=" py-2 small">កន្ត្រកទំនិញ</li>
+                            <li class=" py-2 small">Profile</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <div class="card2">
+                        <h4 class=" text-light">ប្រភេទទំនិញ</h4>
+                        <ul class=" text-white-50 list-unstyled">
+                            <li class=" py-2 small">អាវបុរស</li>
+                            <li class=" py-2 small">ខោបុរស</li>
+                            <li class=" py-2 small">អាវនារី</li>
+                            <li class=" py-2 small">ខោនារី</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card1">
+                        <h4 class=" text-light">ព័ត៌មានទំនាក់ទំនង</h4>
+                        <ul class=" text-white-50 list-unstyled">
+                            <li class=" py-2 small"><i class="bi bi-geo-alt"></i> ផ្ទះលេខ ១២A ផ្លូវ ២៧១ សង្កាត់បឹងសាឡាង
+                                ខណ្ឌទួលគោក ភ្នំពេញ</li>
+                            <li class=" py-2 small"><i class="bi bi-telephone"></i> +855 85 777 888</li>
+                            <li class=" py-2 small"><i class="bi bi-envelope"></i> support@aurafashion.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class=" text-white-50 text-center pt-4 small">
+                © 2026 AURA Fashion. រក្សាសិទ្ធិគ្រប់យ៉ាង។
+            </p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bolder p-2" id="exampleModalLabel">ព័ត៌មានដឹកជញ្ជូន និងទូទាត់ប្រាក់
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body m-3">
+                    <form action="">
+                        <div class=" mb-4">
+                            <label for="text" class=" form-label fw-bold">ឈ្មោះពេញរបស់អ្នកទទួល *</label>
+                            <input type="text" class=" form-control small" name="text" id="text"
+                                placeholder="ឧ. សួស សុខា">
+                        </div>
+                        <div class=" mb-4">
+                            <label for="phone" class=" form-label fw-bold">លេខទូរស័ព្ទទំនាក់ទំនង *</label>
+                            <input type="text" class=" form-control small" name="phone" id="phone"
+                                placeholder="ឧ. 085 777 888">
+                        </div>
+                        <div class=" mb-4">
+                            <label for="text" class=" form-label fw-bold">អាសយដ្ឋានដឹកជញ្ជូនលម្អិត *</label>
+                            <textarea name="message" id="text" class=" form-control small" rows="3"
+                                placeholder="ឧ. ផ្ទះលេខ 12A ផ្លូវ 271 សង្កាត់បឹងសាឡាង ខណ្ឌទួលគោក ភ្នំពេញ"></textarea>
+                        </div>
+                    </form>
+                    <div class="card border-0 bg-body-secondary py-3 px-3 mt-4">
+                        <div class=" d-flex gap-2 align-items-center"><i
+                                class="bi bi-cash-coin text-warning fs-4"></i><span
+                                class=" small fw-bold">ទូទាត់ប្រាក់ពេលទំនិញមកដល់ (Cash on Delivery - COD)</span></div>
+                        <p class=" text-secondary small pt-2">អ្នកនឹងត្រូវបង់ប្រាក់ផ្ទាល់ទៅកាន់អ្នកដឹកជញ្ជូន
+                            នៅពេលដែលទំនិញត្រូវបានដឹក មកដល់ដៃរបស់អ្នកជាស្ថាពរ។</p>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn border" data-bs-dismiss="modal">បោះបង់</button>
+                    <button type="button" class="btn-payment btn text-light fw-bold py-1" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">បញ្ជាក់ការទិញ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 mt-5">
+                    <div class=" display-2 text-success m-auto">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                </div>
+                <div class="modal-body text-center px-5">
+                    <h4 class=" fw-bold mb-3">ការកម្មង់ទទួលបានជោគជ័យ!</h4>
+                    <p class=" px-2">អរគុណសម្រាប់ការគាំទ្រហាង AURA Fashion! លេខកូដកម្មង់ទិញរបស់អ្នកគឺ <span class=" fw-bold">#AURA-830725។</span></p>
+                    <p class=" px-2">យើងនឹងទំនាក់ទំនងទៅកាន់អ្នកដើម្បីបញ្ជាក់ព័ត៌មានដឹកជញ្ជូនក្នុងពេលឆាប់ៗនេះ។</p>
+                </div>
+                <div class="modal-footer border-0 m-auto mb-4">
+                    <a href="index.html" class="btn-link btn fw-bold px-4 py-2 text-decoration-none">ទៅទំព័រដើម</a>
+                    <a href="profile.html" class="btn-buy btn border-0 text-light px-4 py-2 fw-bold">មើលប្រវត្តិទិញ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
